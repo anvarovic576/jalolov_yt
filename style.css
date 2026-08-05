@@ -38,3 +38,17 @@ button {
   padding: 10px;
   border-radius: 5px;
 }
+.hero{
+    background:#ffffff;
+    margin:20px;
+    padding:20px;
+    border-radius:10px;
+}
+
+.hero h2{
+    color:#0066cc;
+}
+
+.hero p{
+    font-size:18px;
+}
