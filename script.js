@@ -16,3 +16,6 @@ search.addEventListener("keyup", function() {
     }
   });
 });
+function likeNews() {
+  alert("Yangilik yoqdi 👍");
+}
