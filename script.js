@@ -32,3 +32,6 @@ function showTime() {
 
 setInterval(showTime, 1000);
 showTime();
+function darkMode() {
+  document.body.classList.toggle("dark");
+}
