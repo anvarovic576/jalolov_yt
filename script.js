@@ -19,3 +19,16 @@ search.addEventListener("keyup", function() {
 function likeNews() {
   alert("Yangilik yoqdi 👍");
 }
+// Sana va vaqtni chiqarish
+function showTime() {
+  const now = new Date();
+
+  const vaqt =
+    now.toLocaleDateString("uz-UZ") + " " +
+    now.toLocaleTimeString("uz-UZ");
+
+  document.getElementById("time").innerHTML = vaqt;
+}
+
+setInterval(showTime, 1000);
+showTime();
