@@ -60,3 +60,24 @@ ul li{
     margin:10px 0;
     font-size:18px;
 }
+.dark {
+  background: #121212;
+  color: white;
+}
+
+.dark .news {
+  background: #222;
+  color: white;
+}
+
+.dark nav {
+  background: #333;
+}
+
+.dark a {
+  color: white;
+}
+
+.dark header {
+  background: #000;
+}
